@@ -30,7 +30,7 @@ public class Lab1TsykaliukKI {
         String[][] arr = createLengthOfEachSubArr(row);
         String fileName = "Lab1.txt";
 
-        // Запуск бізнес логіки для генерації зубчастого масиву (виводу в консоль і запису в файл)
+        // Запуск логіки для генерації зубчастого масиву (виводу в консоль і запису в файл)
         try {
             printMatrix(arr, symbol, row, fileName);
         } catch (IOException e) {
@@ -45,8 +45,9 @@ public class Lab1TsykaliukKI {
      * @param arr масив для заповнення
      * @param symbol символ заповнювач
      * @param row розмір масиву
-     * @param file назва файлу
-     * @throws IOException якщо столась якась помилка при запису в файл
+     * @param file назва фафйлу
+     * @throws IOException якщ9
+     *  столась якась помилка при запису в файл
      * */
     public static void printMatrix(String[][] arr, String symbol, int row, String file) throws IOException {
         System.out.println("Результат матриці: ");
